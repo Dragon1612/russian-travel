@@ -1,0 +1,6 @@
+.places__place-image {
+  grid-area: photo;
+  object-fit: cover;
+  max-width: 470px;
+  max-height: 470px;
+}

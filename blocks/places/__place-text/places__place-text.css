@@ -1,0 +1,12 @@
+.places__place-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #fff;
+  margin: 26px 0 0 0;
+}
+
+.places__place-text:first-child {
+  margin: 0;
+}

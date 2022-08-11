@@ -1,0 +1,8 @@
+.places__place-url-block {
+  grid-area: url;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  margin-bottom: 42px;
+}

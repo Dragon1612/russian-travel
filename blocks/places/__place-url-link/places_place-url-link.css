@@ -1,0 +1,11 @@
+.places__place-url-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  transition: 0.3s;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
