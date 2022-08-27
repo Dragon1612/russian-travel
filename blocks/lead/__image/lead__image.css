@@ -4,4 +4,24 @@
   max-width: 984px;
   max-height: 615px;
   margin: 64px 0 0 0;
+  align-self: normal;
+}
+
+@media (max-width: 1024px) {
+  .lead__image {
+    margin: 57px 0 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__image {
+    margin: 56px 0 0 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .lead__image {
+    margin: 40px 0 0 0;
+  }
 }

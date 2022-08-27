@@ -6,3 +6,10 @@
   align-items: flex-start;
   margin-bottom: 42px;
 }
+
+@media (max-width: 640px) {
+  .places__place-url-block {
+    margin-left: 16px;
+    margin-bottom: 32px;
+  }
+}

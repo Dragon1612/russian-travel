@@ -10,3 +10,11 @@
 .places__place-text:first-child {
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .places__place-text {
+    font-size: 16px;
+    line-height: 163%;
+    margin: 25px 0 0 0;
+  }
+}

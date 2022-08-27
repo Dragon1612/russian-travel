@@ -9,3 +9,15 @@
   margin: 8px 0 0 0;
   padding: 0;
 }
+
+@media (max-width: 768px) {
+  .lead__caption {
+    margin: 8px 0 0 24px;
+  }
+}
+
+@media (max-width: 590px) {
+  .lead__caption {
+    margin: 8px 0 0 24px;
+  }
+}
