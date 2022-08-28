@@ -9,22 +9,29 @@
   background-origin: content-box;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 740px;
   width: calc(100% - 48px * 2);
   z-index: 1;
 }
 
-.cover::before {
+.cover:before {
   position: absolute;
   content: "";
   left: 0;
   right: 0;
   top: 92px;
   bottom: 0;
-  background-color: black;
+  background-color: #2a2c2f;
   opacity: 0.3;
   z-index: -1;
   transition: 0.3s;
+}
+
+.cover:hover::before {
+  content: "";
+  opacity: 0.8;
+  transition: opacity 0.3s linear 0s;
 }
 
 @media (max-width: 1024px) {
