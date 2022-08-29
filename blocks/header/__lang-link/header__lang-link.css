@@ -11,6 +11,11 @@
   margin-right: 0;
 }
 
+.header__lang-link:hover {
+  transition: 0.3;
+  opacity: 0.8;
+}
+
 @media (max-width: 590px) {
   .header__lang-link {
     font-size: 18px;
